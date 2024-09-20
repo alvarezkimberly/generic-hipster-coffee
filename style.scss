@@ -1,0 +1,146 @@
+html {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+main{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+header {
+    background-color: #F8F9FA;
+    padding: 20px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      
+      li {
+        margin-right: 20px;
+        
+        a {
+          color: #D1D2D2;
+          text-decoration: none;
+          padding: 10px 15px;
+          display: inline-block;
+          
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+.counter {
+    text-align: left;
+    padding: 50px 0;
+}
+
+.counter img {
+    justify-content: center;
+    width: 90rem;
+    object-fit: cover;
+    display: flex;
+    gap: 20px;
+}
+
+.counter h1 {
+    font-size: 40px;
+}
+
+.counter h2 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.information div {
+    text-align: center;
+}
+
+.information h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.map {
+    width: 90rem;
+    position: relative;
+    top: 50px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    height: 250px;
+    padding: 30px;
+}
+
+footer a {
+    color: #3872C5;
+}
+
+.footer nav {
+        ul {
+          list-style-type: none;
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          display: flex;
+          
+
+            
+            a {
+              color: #3872C5;
+              text-decoration: none;
+              padding: 10px 15px;
+              display: inline-block;
+              
+              &:hover {
+                color: white;
+              }
+            }
+          }
+        }
+    
+
+footer div {
+    margin-bottom: 40px;
+}
