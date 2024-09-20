@@ -1,0 +1,53 @@
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+
+.coffee-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.coffee-item {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #e7e4e4;
+}
+
+.coffee-item h3 {
+    padding: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.coffee-item img {
+    width: 100%;
+    height: auto;
+}
+
+.coffee-item p {
+    padding: 0 20px 20px;
+    color: #555;
+}
+
+.coffee-item strong {
+    display: block;
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: #333;
+}
