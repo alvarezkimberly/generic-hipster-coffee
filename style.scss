@@ -145,9 +145,41 @@ footer div {
     margin-bottom: 40px;
 }
 
-@media (max-width: 720px) {
-    header {
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
         display: flex;
         flex-direction: column;
     }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        flex-basis: 30rem;
+        width: 500px;
+    }
+
+    .counter img {
+        width: 500px;
+    }
+
+    .map {
+        width: 500px;
+    }
+
 }
