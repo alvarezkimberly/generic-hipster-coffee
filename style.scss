@@ -144,3 +144,10 @@ footer a {
 footer div {
     margin-bottom: 40px;
 }
+
+@media (max-width: 720px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
